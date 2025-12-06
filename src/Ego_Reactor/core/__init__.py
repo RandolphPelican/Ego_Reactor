@@ -1,8 +1,11 @@
 """Core components of Ego_Reactor."""
 from Ego_Reactor.core.symbols import Symbol, Event, EventType, SymbolLifecycle
 from Ego_Reactor.core.ego_core import EgoCore, Prediction
+from Ego_Reactor.core.swarm import Swarm
+from Ego_Reactor.core.vocabulary import VocabularyManager, SymbolRecord
 
 __all__ = [
     "Symbol", "Event", "EventType", "SymbolLifecycle",
-    "EgoCore", "Prediction"
+    "EgoCore", "Prediction", "Swarm",
+    "VocabularyManager", "SymbolRecord"
 ]

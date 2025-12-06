@@ -4,10 +4,12 @@ from Ego_Reactor.core.ego_core import EgoCore, Prediction
 from Ego_Reactor.core.swarm import Swarm
 from Ego_Reactor.core.vocabulary import VocabularyManager, SymbolRecord
 from Ego_Reactor.core.stigmergy import StigmergicManager, ConsensusWindow
+from Ego_Reactor.core.heartbeat import HeartbeatCoordinator, SleepManager
 
 __all__ = [
     "Symbol", "Event", "EventType", "SymbolLifecycle",
     "EgoCore", "Prediction", "Swarm",
     "VocabularyManager", "SymbolRecord",
-    "StigmergicManager", "ConsensusWindow"
+    "StigmergicManager", "ConsensusWindow",
+    "HeartbeatCoordinator", "SleepManager"
 ]
